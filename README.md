@@ -4,13 +4,13 @@ Rental Service API
 1. Set up Vehicles inventory
 2. Create/Update/Retrieve/Delete reservations based on availability.
 
-- ###### Run
+- #### **Run**
   mvn spring-boot:run
   
-- ###### Data Setup
-  - Endpoint: localhost:20000/vehicles
-  - Type: REST POST
-  - Request body:
+- #### Data Setup
+  - **Endpoint**: localhost:20000/vehicles
+  - **Type**: REST POST
+  - **Request body**:
     ```
     {
       "type" : "MEDIUM",
@@ -18,10 +18,10 @@ Rental Service API
     }
     ```
 
-- ###### Reservation API
-  - Endpoint: localhost:20000/reservations
-  - Type: REST POST
-  - Request body:
+- #### Reservation API
+  - **Endpoint**: localhost:20000/reservations
+  - **Type**: REST POST
+  - **Request body**:
     ```
     {
       "type" : "MEDIUM",
