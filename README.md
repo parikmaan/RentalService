@@ -1,8 +1,8 @@
 # RentalService
-> Rental Service API
-> 
-> 1. Set up Vehicles inventory
-> 2. Create/Update/Retrieve/Delete reservations based on availability.
+Rental Service API
+
+- Set up Vehicles inventory
+- Create/Update/Retrieve/Delete reservations based on availability.
 
 - #### **Run**
   mvn spring-boot:run
